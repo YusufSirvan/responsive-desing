@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.ust{
+    background-color: lightgreen;
+    width: 100%;
+    height: auto;
+}
+.header{
+    display: flex;
+    background-color: lightgreen;
+}
+.header button{
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 90px;
+    height: 35px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: white;
+}
+.header h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: lightgreen;
+
+}
+h1{
+    margin: 70px 25px 25px 25px;
+    text-align: center;
+    background-color: lightgreen;
+}
+.ust p{
+    text-align: center;
+    margin: 25px;
+    background-color: lightgreen;
+
+}
+#btn{
+    margin: 25px;
+    margin-left: 65px;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: darkorchid;
+    color: white;
+}
+img{
+    margin: 25px;
+    width: 280px;
+    height: auto;
+}
+
+.bir{
+    margin: 20px;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 gray;
+    border-radius: 25px;
+}
+.bir h2{
+    margin: 30px 30px 30px 90px;
+    background-color: white;
+}
+.bir p{
+    margin: 25px 40px 0px 40px;
+    text-align: center;
+    color: gray;
+    background-color: white;
+}
+
+.al{
+    position: relative;
+    margin: 80px 20px 20px 20px;
+    padding: 10px;
+    height: auto;
+    max-width: 90%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 gray;
+
+}
+.al h3{
+    background-color: white;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.al button{
+    
+        margin: 25px;
+        margin-left: 40px;
+        width: 250px;
+        height: 50px;
+        border-radius: 25px;
+        border-style: none;
+        background-color: darkorchid;
+        color: white;
+}
+.nal{
+    position: absolute;
+    margin-top: 90px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+.nal h2{
+    margin-top: 150px;
+    background-color: green;
+}
+
+@media only screen and (min-width:720px){
+    .al button{
+        margin-left: 320px;
+}
+.bir{
+    display: flex;
+}
+.bir h2{
+    margin: 120px 30px 30px 390px;
+    font-size: 35px;
+    position: absolute;
+}
+.bir p{
+    margin: 190px 40px 0px 40px;
+    position: relative;
+}
+.header button{
+    margin-left: 1260px;
+}
+.header h2{
+    margin-left: 40px;
+
+}
+#btn{
+    margin-left: 620px;
+}
+.al{
+    margin: 80px 20px 20px 270px;
+    max-width: 60%;
+
+}
+    
+}
